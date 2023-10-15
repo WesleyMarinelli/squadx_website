@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+p,
+body,
+input,
+textarea,
+form button {
+    font-family: 'Bungee', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+header {
+    padding: 18px 0;
+    background-color: rgb(26, 26, 26);
+    color: azure;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: azure;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(73, 70, 70);
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(175, 176, 177);
+}
+
+section {
+    padding: 18px 0;
+}
+section img {
+    margin-right: 25px;
+    height: 250px;
+    width: 450px;
+
+}
+
+.campeonato-list img {
+    height: 80px;
+    width: 80px;
+}
+
+.campeonato-list li {
+    display: inline;
+    margin-right: 18px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+section h2{
+    margin-bottom: 22px;
+}
+
+h2, h3 {
+    color: azure;
+}
+
+.brands-list img {    /* tamanho dos logos */
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#championship .campeonato-list {
+    margin-top: 37px;
+}
+
+#login .container {
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px #0e032f;
+}
+
+.login-methods {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 200px;
+    margin-bottom: 4px;
+    padding: 2px;
+}
+
+section h3 {
+    margin-bottom: 8px;
+}
+
+form button {
+    background-color:  rgb(26, 26, 26);
+    color:azure;
+    border: none;  /* tiranto a borda do botao*/
+    cursor: pointer; /* mudando a seta do mouse quando passa no botao */
+}
+
+form button:hover {
+    background-color: #0e032f;
+}
+
+#membership .social-links img {
+    height: 30px;
+    width: 30px;
+}
+
+#membership .social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#membership .social-links li a {
+    text-decoration: none;
+}
+
+#membership .container {
+    display: block;
+}
+#membership .member-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+#membership {
+    margin-top: 20px;
+    padding: 0;
+    margin: 1px;
+    width:auto;
+    background-size: cover;
+    background-image: url(./imagens/callofduty.jpg)
+    
+}
+footer {
+    background-color:rgb(26,26,26);
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    
+}
